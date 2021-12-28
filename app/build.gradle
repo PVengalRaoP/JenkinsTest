@@ -11,7 +11,7 @@ plugins {
     id 'java'
 }
   
-jar {  
+/*jar {  
 
    // archiveBaseName = 'gs-gradle'
     // archiveVersion =  '0.1.0' 
@@ -21,7 +21,7 @@ jar {
                 'Main-Class': 'App.class'  
         )  
     }  
-}  
+}  */
 
 repositories {
     // Use Maven Central for resolving dependencies.
