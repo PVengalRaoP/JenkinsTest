@@ -13,14 +13,14 @@ plugins {
   
 jar {  
 
-    archiveBaseName = 'gs-gradle'
-    archiveVersion =  '0.1.0' 
-   /* manifest {  
+   // archiveBaseName = 'gs-gradle'
+    // archiveVersion =  '0.1.0' 
+    manifest {  
        attributes(  
    
-                'Main-Class': 'com.jenkinsTest.AppMain'  
+                'Main-Class': 'App.class'  
         )  
-    }*/  
+    }  
 }  
 
 repositories {
