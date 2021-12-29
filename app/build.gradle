@@ -11,8 +11,15 @@ plugins {
     id 'application'
 }
 
+
 plugins {
   id "org.sonarqube" version "3.3"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "JenkinsTesting"
+  }
 }
 
 plugins {  
